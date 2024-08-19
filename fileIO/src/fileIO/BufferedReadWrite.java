@@ -11,7 +11,7 @@ import java.io.Writer;
 
 public class BufferedReadWrite {
 	public static void main(String[] args) throws IOException {
-		String[] names = {"Shivani", "Supriya", "Shreyas", "Sudu", "Shivu"};
+		String[] names = {"java", "Input", "Output", "File Handling", "Multithreading"};
 		try {
 			BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Dell\\eclipse-workspace\\fileIO\\Output.txt"));
 			//BufferedWriter output = new BufferedWriter(new fileWrite("Output.txt"));			
