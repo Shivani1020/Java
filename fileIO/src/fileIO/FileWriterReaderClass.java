@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GileWriterReaderClass {
+public class FileWriterReaderClass {
 	public static void main(String[] args) throws IOException {
 		File infile = new File("a1.txt"); //declare and create i/p file
 		File outfile = new File("FileReaderWriterClass.txt");
